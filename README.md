@@ -85,7 +85,7 @@ Konlpy를 통하여 자연어처리를 이용한 영화추천
     
     - 기존 장르기반 추천과의 비교
     
-    ![backdu_comp](./readme/backdu_comp.JPG)
+    ![backdu_comp](./readme/backdu_comp.jpg)
 
 - Bad Case
 
@@ -101,4 +101,4 @@ Konlpy를 통하여 자연어처리를 이용한 영화추천
 
   - 백두산
 
-    ![backdu_comp](./readme/backdu_comp.JPG)
+    ![backdu_comp](./readme/backdu_comp.jpg)
