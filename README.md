@@ -85,20 +85,10 @@ Konlpy를 통하여 자연어처리를 이용한 영화추천
     
     - 기존 장르기반 추천과의 비교
     
-    ![backdu_comp](./readme/backdu_comp.JPG)
+    ![backdu_comp](./readme/backdu_comp.jpg)
 
 - Bad Case
 
   - 조커 ( https://movie.naver.com/movie/bi/mi/basic.nhn?code=167613 )
 
     ![joker](./readme/joker.png)
-
-- 기존 장르기반 추천과의 비교
-
-  - 포드 V 페라리
-
-    ![ford_v_ferrari_comp](./readme/ford_v_ferrari_comp.JPG)
-
-  - 백두산
-
-    ![backdu_comp](./readme/backdu_comp.JPG)
