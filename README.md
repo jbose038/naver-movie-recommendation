@@ -2,7 +2,6 @@
 Konlpy를 통하여 자연어처리를 이용한 영화추천
 
 <h3>Overview</h3>
-
 크롤링을 통하여 데이터를 수집하고, 데이터 중 줄거리를 전처리하여 모든 영화들의
 줄거리에 대한 Word2Vec을 생성합니다. 
 그리고 줄거리마다 Textrank를 수행하여 각 영화마다 줄거리의 주요 키워드들을 추출합니다.
@@ -12,7 +11,6 @@ Konlpy를 통하여 자연어처리를 이용한 영화추천
 
 
 <h3>About the files</h3>
-
 <code>naver_movie_crawler.ipynb</code> : '네이버 영화' 페이지 크롤러
 
 <code>plot_preprocessing.ipynb</code> : 줄거리을 통해 Word2Vec, Textrank 진행
@@ -23,10 +21,11 @@ Konlpy를 통하여 자연어처리를 이용한 영화추천
 
 <code>model/</code> : word2vec 모델 디렉토리
 
+<code>stopwords/</code> : 불용어 데이터 디렉토리
+
 
 
 <h3>Data Description</h3>
-
 - Format : /dataset/naver_movie_dataset_MMDD.csv (MMDD : 셀이 실행된 월,일)
 
 - Extracted data
@@ -56,7 +55,6 @@ Konlpy를 통하여 자연어처리를 이용한 영화추천
     
 
 <h3>Recommendation System Example</h3>
-
 - Requirement
   - Dataframe (from end of <code>plot_preprocessing.ipynb</code>)
   - Word2Vec model (from <code>plot_preprocessing.ipynb</code>)
