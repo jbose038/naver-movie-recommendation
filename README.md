@@ -36,7 +36,7 @@ Konlpy를 통하여 자연어처리를 이용한 영화추천
 IMDB의 방식인 weighted rating system을 사용하고 있습니다.
 이로 인해 평점은 매우 높지만 평점 참여 수가 매우 낮은 minor 영화들이 추천에 등장하는 것을 방지합니다.
 
-![wr](.\readme\wr.JPG)
+![wr](./readme/wr.JPG)
 
 **MiniBatchKMeans**
 클러스터링 기반에서 줄거리 데이터에 대해 clustering을 사용한 후 cluster별 데이터 분포를 확인하면
@@ -53,10 +53,10 @@ centroid가 update되는 방식을 사용하는 MiniBatchKMeans를 사용하였�
 
 ※ Clustering Visualization : 데이터에 대해 각 알고리즘으로 clustering을 9번 반복한 결과
 ※※ KMeans
-<img src=".\readme\kmeans.png" alt="kmeans" style="zoom: 50%;" />
+<img src="./readme/kmeans.png" alt="kmeans" style="zoom: 50%;" />
 
 ※※ MiniBatchKMeans
-<img src=".\readme\minibatch_kmeans.png" alt="mbkmeans" style="zoom:50%;" />
+<img src="./readme/minibatch_kmeans.png" alt="mbkmeans" style="zoom:50%;" />
 
 
 
@@ -127,8 +127,11 @@ centroid가 update되는 방식을 사용하는 MiniBatchKMeans를 사용하였�
       ![ford_v_ferrari_textrank](./readme/ford_v_ferrari_textrank.JPG)
 
     - 벡터 기반
+    
       ![ford_v_ferrari_vec](./readme/ford_v_ferrari_vec.JPG)
+      
     - 클러스터링 기반
+    
       ![ford_v_ferrari_clustering](./readme/ford_v_ferrari_clustering.JPG)
 
     
@@ -139,16 +142,25 @@ centroid가 update되는 방식을 사용하는 MiniBatchKMeans를 사용하였�
       ![ironman2_textrank](./readme/ironman2_textrank.JPG)
 
     - 벡터 기반
+    
       ![ironman2_vec](./readme/ironman2_vec.JPG)
+      
     - 클러스터링 기반
+    
       ![ironman2_clustering](./readme/ironman2_clustering.JPG)
+      
 
 - Bad Case
 
   - 조커 ( https://movie.naver.com/movie/bi/mi/basic.nhn?code=167613 )
+  
     - 키워드 기반
-        ![joker](./readme/joker_textrank.JPG)
+      ![joker](./readme/joker_textrank.JPG)
+      
     - 벡터 기반
+    
       ![joker](./readme/joker_vec.JPG)
+      
     - 클러스터링 기반
+    
       ![joker](./readme/joker_clustering.JPG)
